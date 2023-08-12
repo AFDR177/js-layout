@@ -1,0 +1,80 @@
+@use '../../style' as s;
+
+
+// .page {
+// 	padding: 24px;
+// 	max-width: 400px;
+// 	margin: 0 auto;
+
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 32px;
+// }
+
+// .header {
+// 	display: flex;
+// 	justify-content: space-between;
+// }
+
+// .button {
+// 	transition: opacity 0.7s;
+// 	cursor: pointer;
+
+// 	&__go {
+// 		background-color: #F46F17;
+// 		height: 45px;
+// 		color: #ffff;
+// 		border-radius: 10px;
+// 	}
+
+// 	&:hover {
+// 		opacity: 0.7;
+// 	}
+// }
+
+
+.tabs{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.tab{
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+	text-decoration: none;
+	color: #121212;
+	
+	font-size: 16px;
+	border-bottom: 2px solid #121212;
+
+	&--veiwed{
+		border-bottom: 2px solid #E6E6E6
+		;
+		color: #E6E6E6;
+		cursor: pointer;
+	}
+}
+.description{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	&__text {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #363636;
+	}
+}
+
+
+
+
+
+
+
+

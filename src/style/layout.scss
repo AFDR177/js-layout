@@ -1,0 +1,41 @@
+
+.page {
+	padding: 24px;
+	max-width: 400px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	transition: opacity 0.7s;
+	cursor: pointer;
+
+	&__go {
+		background-color: #F46F17;
+		height: 45px;
+		color: #ffff;
+		border-radius: 10px;
+	}
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.title {
+	font-size: 24px;
+	color: #121212;
+
+
+	&__small {
+		font-size: 20px;
+	}
+}
